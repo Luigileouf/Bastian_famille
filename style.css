@@ -31,8 +31,12 @@ h1 {
 .card img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 50%; /* rend l’image circulaire */
+  aspect-ratio: 1 / 1; /* assure une forme carrée */
+  object-fit: cover;   /* centre et découpe l’image proprement */
+  margin-bottom: 0.5rem;
 }
+
 
 .card h2 {
   margin: 0.5rem 0;
